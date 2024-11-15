@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studlancer - Student Work Exchange Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+            transform: scale(1.1);
+        }
+        .hero {
+            background: url('file:///C:/Users/akgp1/StudlancerWebsite/Designer%20(2).jpg') center/cover no-repeat;
+            color: white;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 1.5rem;
+            position: relative;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+        }
+        .hero h2, .hero p {
+            position: relative;
+            z-index: 1;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Studlancer</h1>
+        <p>Where Students Give Work to Students for Money</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#contact" onclick="window.location.href='https://wa.me/918581805009'; return false;">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to Studlancer</h2>
+        <p>Your platform to find help and earn money through student collaboration.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Studlancer is a platform for students to offer or request work from other students, all for fair payment. 
+           Whether you need help with assignments, projects, or freelance work, Studlancer brings students together to 
+           collaborate and succeed.</p>
+    </section>
+
+    <section id="how-it-works" class="section">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Sign up and create your profile.</li>
+            <li>Post a task or browse available tasks.</li>
+            <li>Negotiate and agree on a fair price for the work.</li>
+            <li>Complete the task and receive payment securely.</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Studlancer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
