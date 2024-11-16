@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Zone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e9f5f9, #ffffff);
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Study Zone</h1>
+        <p>Access educational resources for effective study and updates.</p>
+
+        <!-- DCE Darbhanga Website -->
+        <a class="button" href="https://www.dce-darbhanga.org/" target="_blank">DCE Darbhanga</a>
+
+        <!-- BEU Notice Board -->
+        <a class="button" href="http://beu-bih.ac.in/BEUP/NoticeBoard.aspx" target="_blank">BEU Notice Board</a>
+
+        <!-- B.Tech Syllabus -->
+        <a class="button" href="BTech_Syllabus.pdf" download="B.Tech(Group B) 1st & 2nd Sem">Download B.Tech Syllabus</a>
+
+        <br><br>
+        <a class="button" href="index.html">Back to Main Page</a>
+    </div>
+</body>
+</html>
