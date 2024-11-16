@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studlancer - Main Page</title>
     <!-- Link external CSS -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <h1>Studlancer</h1>
@@ -15,6 +15,6 @@
     <a class="button" href="entertainment-zone.html">Entertainment Zone</a>
 
     <!-- Include external JavaScript -->
-    <script src="scripts/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
